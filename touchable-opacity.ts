@@ -1,3 +1,4 @@
+// TouchableOpacity: A button-like component that reduces opacity when pressed for visual feedback.
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, TouchableOpacityProps } from 'react-native';
 
