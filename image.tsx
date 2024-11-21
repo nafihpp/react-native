@@ -7,7 +7,7 @@ interface ImageComponentProps extends ImageProps {
   resizeMode?: 'cover' | 'contain' | 'stretch' | 'center';
 }
 
-const ImageComponent: React.FC<ImageComponentProps> = ({ source, style, resizeMode = 'cover', ...rest }) => {
+export const ImageComponent: React.FC<ImageComponentProps> = ({ source, style, resizeMode = 'cover', ...rest }) => {
   return <Image source={source} style={[styles.image, style]} resizeMode={resizeMode} {...rest} />;
 };
 
@@ -17,5 +17,3 @@ const styles = StyleSheet.create({
     height: 200,
   },
 });
-
-export default ImageComponent;
