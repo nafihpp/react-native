@@ -1,12 +1,12 @@
 import React from 'react';
 import { TextInput, StyleSheet, TextInputProps, View } from 'react-native';
 
-interface TextInputComponentProps extends TextInputProps {
+interface TextInputProps extends TextInputProps {
   label: string;
   secureTextEntry?: boolean;
 }
 
-const TextInputComponent: React.FC<TextInputComponentProps> = ({
+export const TextInput: React.FC<TextInputProps> = ({
   label,
   value,
   onChangeText,
@@ -42,4 +42,3 @@ const styles = StyleSheet.create({
   },
 });
 
-export default TextInputComponent;
