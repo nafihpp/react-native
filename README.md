@@ -1,6 +1,6 @@
 ## Components
 - TouchableOpacity
-- Pressable: A flexible touch handler with callbacks for various touch states (e.g., onPressIn, onPressOut).
+- Pressable
 - FlatList: A highly efficient, scrollable list component for rendering large data sets.
 - View: A container component used to style and layout other components.
 - Text: A component to display text content on the screen.
