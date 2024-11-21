@@ -1,3 +1,4 @@
+// A flexible touch handler with callbacks for various touch states (e.g., onPressIn, onPressOut).
 import React from 'react';
 import { Pressable, Text, StyleSheet, PressableProps } from 'react-native';
 
