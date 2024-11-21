@@ -7,9 +7,8 @@ interface ThemedViewProps extends ViewProps {
 }
 
 const ThemedView: React.FC<ThemedViewProps> = ({ style, children, ...rest }) => {
-  const { theme } = useTheme(); // Get current theme from context
+  const { theme } = useTheme();
 
-  // Define styles based on theme
   const containerStyle = theme === 'light' ? styles.lightContainer : styles.darkContainer;
 
   return (
