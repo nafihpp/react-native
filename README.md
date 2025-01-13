@@ -8,6 +8,7 @@
 - **Pressable**: A customizable component for handling various touch states.
 - **FlatList**: A highly efficient scrollable list for rendering large data sets.
 - **Image**: A component to display images from various sources.
+- **Image Background**: A component to display image background.
 - **Button**: A simple button that triggers an action when pressed.
 - **Switch**: A toggle switch for boolean values (on/off).
 - **ActivityIndicator**: A spinner that indicates loading or activity.
