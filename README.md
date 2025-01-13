@@ -1,20 +1,31 @@
-## Components
-- TouchableOpacity
-- Pressable
-- FlatList: A highly efficient, scrollable list component for rendering large data sets.
-- View: A container component used to style and layout other components.
-- Text: A component to display text content on the screen.
-- ScrollView: A scrollable container for wrapping content that might exceed the screen's size.
-- TextInput: An input field for accepting user text input.
-- Image: Displays images in your app, including support for different formats and sources.
-- Button: A simple button component that triggers an action when pressed.
-- Switch: A toggle switch component for boolean values (e.g., on/off).
-- ActivityIndicator: A spinner that shows loading state or activity.
-- Modal: A component for displaying content in a modal overlay.
-- SafeAreaView: A component that renders content within the safe area boundaries of a device's screen.
-- StatusBar: Allows control over the app's status bar (e.g., visibility, style).
-- KeyboardAvoidingView: A component that ensures UI components don’t get hidden by the on-screen keyboard.
-- SectionList: A list component for rendering sectioned data with headers.
-- RefreshControl: A control used with a ScrollView or FlatList to provide pull-to-refresh functionality.
-- Dimensions: A utility to get the window's dimensions (e.g., width and height).
-- VirtualizedList: A base component for rendering large lists efficiently, often used by FlatList and SectionList.
+## React Native Components :
+
+- **View**: A container component for layout and styling of child components.
+- **Text**: A component used to display text content.
+- **ScrollView**: A scrollable container for wrapping content that might overflow.
+- **TextInput**: An input field for user text input.
+- **TouchableOpacity**: A component for creating touchable elements with a fade-in effect.
+- **Pressable**: A customizable component for handling various touch states.
+- **FlatList**: A highly efficient scrollable list for rendering large data sets.
+- **Image**: A component to display images from various sources.
+- **Button**: A simple button that triggers an action when pressed.
+- **Switch**: A toggle switch for boolean values (on/off).
+- **ActivityIndicator**: A spinner that indicates loading or activity.
+- **Modal**: A component for displaying content in a modal overlay.
+- **SafeAreaView**: Renders content within the device's safe area boundaries.
+- **StatusBar**: Provides control over the app's status bar (visibility, style).
+- **KeyboardAvoidingView**: Ensures UI elements aren't hidden by the keyboard.
+- **SectionList**: A list component for rendering sectioned data with headers.
+- **RefreshControl**: Provides pull-to-refresh functionality for ScrollView or FlatList.
+- **Dimensions**: A utility for getting the window's width and height.
+- **VirtualizedList**: A base component for rendering large lists efficiently.
+- **Picker**: A component for selecting values from a dropdown-style menu.
+- **DatePicker**: A specialized picker component for selecting dates.
+- **ActionSheet**: A component to display a customizable action sheet (often used for actions).
+- **GestureHandler**: A library used for handling gestures like swipe, pan, pinch, etc.
+- **LinearGradient**: A component used to display gradients as backgrounds.
+- **Swipeable**: A component for creating swipeable list items (commonly used with FlatList).
+- **Animated**: A library for creating complex animations and transitions.
+- **WebView**: A component for rendering web pages within the app.
+- **CheckBox**: A component for selecting multiple boolean options (checkboxes).
+- **RefreshControl**: A control used in ScrollView or FlatList for pull-to-refresh functionality.
